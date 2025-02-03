@@ -1,6 +1,41 @@
-body {
+* {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-decoration: none;
+}
+.logo-img {
+  width: 14opx;
+  height: 40px;
+}
+.navbar,
+.header-button {
+  display: none;
+}
+.icon-div-header {
+  padding-top: 9px;
+}
+.navigation-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+}
+.first-sect-div {
+  display: flex;
+  flex-direction: column;
+}
+.img-reserve {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.first-girl-img {
+  width: 343px;
+  height: 342px;
+}
+.text-h {
+  font-family: Sora, sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.02;
 }
